@@ -1,7 +1,8 @@
-# Ej2
+ Ej2
 
-## pseudocodigo original
-
+. Pseudocodigo original
+ 
+```
 Algoritmo triángulos
   definir a,b,c como Entero
   Escribir "Ingrese el valor del primer lado: "
@@ -20,8 +21,9 @@ Algoritmo triángulos
     FinSi
   FinSi
 FinAlgoritmo
+```
 
-## Casos de prueba encontrados
+- Casos de prueba encontrados
 
 Caso 1:negativos o cero
 - Entrada: a=-1, b=1, c=5
@@ -33,12 +35,13 @@ Caso 2: Lados que no cumplen la desigualdad triangular
 - Resultado del algoritmo original: Escaleno
 - Resultado esperado: Error (1+2=3, no alcanza para llegar hasta 10. no forman un triángulo real)
 
-## Explicación de los errores
+. Explicación de los errores
 
 EL Pseudocodigo tiene un problema. No se fija si los números que le pases realmente pueden formar un triangulo. Por un lado, deja pasar negativos y ceros, cuando un lado de un triangulo no puede medir eso y por otro lado, tampoco chequea que los lados cierren como triangulo, es decir, si sumas los dos lados mas chicos, tiene que dar mas que el lado mas grande, sino no se puede armar (con 1,2 y 10 no hay forma de que cierre el triangulo). Como no valida ninguna de las dos cosas, termina clasificando como Equilátero, Isósceles o Escaleno números que en realidad no forman un triangulo posible.
 
-## Pseudocodigo corregido
+. Pseudocodigo corregido
 
+```
 Algoritmo triangulos
   definir a,b,c como Entero
   Escribir "Ingrese el valor del primer lado: "
@@ -65,3 +68,4 @@ Algoritmo triangulos
     FinSi
   FinSi
 FinAlgoritmo
+```
