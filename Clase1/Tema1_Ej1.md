@@ -1,8 +1,8 @@
+```
 Algoritmo esPrimo
   definir n como Entero
   Escribir "Ingrese un numero: "
   leer n
-
   si n < 0 Entonces
     Escribir "Error: No aceptan numeros negativos."
   SiNo
@@ -14,13 +14,14 @@ Algoritmo esPrimo
       SiNo
         si n % 2 == 0 Entonces
           Escribir "Falso"
-          SiNo
-            Escribir "Verdadero"
-          Finsi
+        SiNo
+          Escribir "Verdadero"
         Finsi
       Finsi
     Finsi
-  FinAlgoritmo
+  Finsi
+FinAlgoritmo
+```
 
   | Caso | Entrada (n) | Resultado esperado | Tipo de caso |
 |------|-------------|---------------------|----------------|
