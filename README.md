@@ -1,2 +1,2 @@
 # Programacion2-StaglianoThomas
-Repositorio Catedra
+Repositorio para toda la cátedra.
